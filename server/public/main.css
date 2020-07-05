@@ -1,5 +1,13 @@
 * {
-background-color: blue;
+background-color: tan;
+}
+
+.body {
+  background-color: blue;
+  position: relative;
+  display: flexbox;
+  height: 100%;
+  width: 100%;
 }
 
 .nav-bar * {

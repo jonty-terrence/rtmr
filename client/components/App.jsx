@@ -12,15 +12,15 @@ import Footer from './Footer'
 class App extends React.Component {
   render () {
     return (
-    <>
-      <Nav />
-      <Hero />
-      <Listing />
-      <Map />
-      <CategorySelector />
-      <InfoBoxes />
-      <Footer />
-    </>
+      <div className="body">
+        <Nav />
+        <Hero />
+        <Listing />
+        <Map />
+        <CategorySelector />
+        <InfoBoxes />
+        <Footer />
+      </div>
     )
   }
 }
