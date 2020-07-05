@@ -2,7 +2,7 @@ import React from 'react'
 
 function Listing () {
   return (
-    <div>
+    <div className="business-listing">
       <h4>This is the business Listing</h4>
     </div>
   )

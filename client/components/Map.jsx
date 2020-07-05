@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Map() {
+function Map () {
   return (
-    <div>
+    <div className="map-section">
       <h5>this is the map component</h5>
     </div>
   )

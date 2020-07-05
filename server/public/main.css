@@ -1,8 +1,32 @@
-.leaflet-container {
-  height: 400px;
-  width: 100%;
+* {
+background-color: blue;
 }
 
-.fontchange {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.nav-bar * {
+background-color: brown;
+}
+
+.hero * {
+  background-color: whitesmoke;
+ 
+}
+
+.business-listing * {
+  background-color: teal;
+}
+
+.map-section * {
+  background-color: tomato;
+}
+
+.category-selector * {
+  background-color: violet;
+}
+
+.info-boxes * {
+  background-color: yellowgreen;
+}
+
+.footer * {
+  background-color: yellow;
 }
