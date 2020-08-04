@@ -1,40 +1,38 @@
-* {
-background-color: tan;
+@font-face {
+  font-family: 'Shrimp';
+  src: url('SHRIMP.ttf') format('truetype'),
+      url('Shrimp-Regular.woff2') format('woff2'),
+      url('Shrimp-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shrimp';
+  src: url('Shrimp-Regular.woff2') format('woff2'),
+      url('Shrimp-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .body {
-  background-color: blue;
-  position: relative;
-  display: flexbox;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
-.nav-bar * {
-background-color: brown;
+.nav-bar ul {
+  display: flex;
+  width: 90%;
+  height: 20%;
+  margin: 2%;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: 'Shrimp', sans-serif;
 }
 
-.hero * {
-  background-color: whitesmoke;
- 
-}
-
-.business-listing * {
-  background-color: teal;
-}
-
-.map-section * {
-  background-color: tomato;
-}
-
-.category-selector * {
-  background-color: violet;
-}
-
-.info-boxes * {
-  background-color: yellowgreen;
-}
-
-.footer * {
-  background-color: yellow;
+.logo {
+  padding-right: 50%;
+  font-size: 2.5rem;
 }
