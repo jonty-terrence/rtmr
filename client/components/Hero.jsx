@@ -13,6 +13,7 @@ function Hero () {
             <div class="w-100 text-white">
               <h3 class="display-3">Support businesses that pay their people a living wage</h3>
               <p class="lead mb-0">Discover your new local here</p>
+              <span class="fas fa-angle-double-down bounce-7"></span>
             </div>
           </div>
         </div>
