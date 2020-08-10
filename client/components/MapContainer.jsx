@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Map from './Map'
+import Listing from './Listing'
+
 function MapContainer () {
   return (
     <div className="map-container">
-      <h5>this is the map component</h5>
+      <Map />
+      <Listing />
     </div>
   )
 }
