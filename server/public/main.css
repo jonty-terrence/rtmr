@@ -64,6 +64,7 @@ header video {
 }
 
 header .container {
+  margin-top: 8%;
   position: relative;
   z-index: 2;
 }
@@ -91,9 +92,9 @@ header .overlay {
 .fa-angle-double-down {
   margin-bottom: -5%;
   padding-top: 10%;
-  font-size: 4rem;
+  font-size: 3rem;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
   margin: 0 auto 0 auto;
   transform-origin: bottom;
 }
