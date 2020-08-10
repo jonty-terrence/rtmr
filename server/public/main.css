@@ -1,40 +1,114 @@
-* {
-background-color: tan;
+@font-face {
+  font-family: 'Shrimp';
+  src: url('SHRIMP.ttf') format('truetype'),
+      url('Shrimp-Regular.woff2') format('woff2'),
+      url('Shrimp-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .body {
-  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 90%;
+  height: 20%;
+  margin: 2%;
+  color: whitesmoke;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: 'Shrimp', sans-serif;
+  border: none;
+  box-shadow: none;
+  transition: background 0.7s ease-out;
+  background: transparent!important;
+  position: fixed;
+  z-index: 1030;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  padding-right: 50%;
+  font-size: 2.5rem;
+}
+
+header {
   position: relative;
-  display: flexbox;
+  background-color: black;
+  height: 95vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Shrimp', sans-serif;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  margin-top: 8%;
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
 }
 
-.nav-bar * {
-background-color: brown;
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
 }
 
-.hero * {
-  background-color: whitesmoke;
- 
+.fa-angle-double-down {
+  margin-bottom: -5%;
+  padding-top: 10%;
+  font-size: 3rem;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
 }
 
-.business-listing * {
-  background-color: teal;
+.bounce-7 {
+  animation-name: bounce-7;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
 }
-
-.map-section * {
-  background-color: tomato;
-}
-
-.category-selector * {
-  background-color: violet;
-}
-
-.info-boxes * {
-  background-color: yellowgreen;
-}
-
-.footer * {
-  background-color: yellow;
+@keyframes bounce-7 {
+  0%   { transform: scale(1,1)      translateY(0); }
+  10%  { transform: scale(1.1,.9)   translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-100px); }
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  57%  { transform: scale(1,1)      translateY(-7px); }
+  64%  { transform: scale(1,1)      translateY(0); }
+  100% { transform: scale(1,1)      translateY(0); }
 }
