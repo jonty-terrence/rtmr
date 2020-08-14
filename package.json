@@ -1,5 +1,5 @@
 {
-  "name": "rtmr",
+  name: "rtmr",
   "version": "0.2.2",
   "description": "A React web app that displays the locations of (and information about) businesses in Auckland, New Zealand that pay a living wage",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
