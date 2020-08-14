@@ -20,7 +20,7 @@ module.exports = {
           'handlebars-loader', // handlebars loader expects raw resource string
           'extract-loader',
           'css-loader',
-        ]
+        ]  
       },
   ],
   },

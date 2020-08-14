@@ -3,7 +3,7 @@ import React from 'react'
 function Listing () {
         return (
             <>
-                <p>business.name</p>
+                <p>{business.name}</p>
             </>
         )
 }
