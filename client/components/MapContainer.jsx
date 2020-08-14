@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Map from './Map'
-import Listing from './Listing'
+import Listings from './Listings'
 
 function MapContainer () {
   return (
     <div className="map-container">
       <Map />
-      <Listing />
+      <Listings />
     </div>
   )
 }
