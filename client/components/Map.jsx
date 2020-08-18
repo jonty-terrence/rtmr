@@ -17,6 +17,7 @@ function Map () {
             onViewportChange={(viewport) => {
                 setViewport(viewport)
             }}
+            mapStyle="mapbox://styles/jontyterrence/ckdzey51n0dqx1arr2pnnhvx9"
             >
         </ReactMapGL> 
     </div>
