@@ -11,10 +11,14 @@ function Map () {
     })
   return (
     <div className="map-box">
-      <ReactMapGL 
-      {...viewport}
-      mapboxApiAccessToken="pk.eyJ1Ijoiam9udHl0ZXJyZW5jZSIsImEiOiJja2R6ZG55NzMxYm00MnFvYTQzeGkzZDZ4In0.lI5DIs4hAE1MSBURbIwnFA">
-          </ReactMapGL> 
+        <ReactMapGL 
+            {...viewport}
+            mapboxApiAccessToken="pk.eyJ1Ijoiam9udHl0ZXJyZW5jZSIsImEiOiJja2R6ZG55NzMxYm00MnFvYTQzeGkzZDZ4In0.lI5DIs4hAE1MSBURbIwnFA"
+            onViewportChange={(viewport) => {
+                setViewport(viewport)
+            }}
+            >
+        </ReactMapGL> 
     </div>
   )
 }
