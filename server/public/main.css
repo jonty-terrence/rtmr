@@ -130,6 +130,11 @@ header .overlay {
   overflow-y: scroll;
 }
 
+.listing-container a {
+  max-width: 70%;
+  max-height: 60%;
+}
+
 .business-listing {
   display: inline-flex;
   align-content: center;
