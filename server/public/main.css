@@ -126,5 +126,27 @@ header .overlay {
 .listing-container {
   width: 39vh;
   order: 1;
+  display: flexbox;
+  overflow-y: scroll;
+}
 
+.listing-container a {
+  max-width: 70%;
+  max-height: 60%;
+}
+
+.business-listing {
+  display: inline-flex;
+  align-content: center;
+}
+
+.business-image {
+  max-width: 70%;
+  max-height: 60%;
+}
+
+.business-name {
+  font-size: 12px;
+  align-content: center;
+  text-align: left;
 }
