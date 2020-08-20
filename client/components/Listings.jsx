@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Listing from './Listing'
 import businesses from '../data/auckland-businesses'
 
 function Listings () {
