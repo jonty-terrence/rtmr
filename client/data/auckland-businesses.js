@@ -3,31 +3,56 @@ export default [
        url: 'https://www.advicefirst.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/f8a44dffcf00f6987264605127ef94669395863f.png?1572905788',
        name: 'AdviceFirst Limited',
-       email: 'mailto:mark.ennis@advicefirst.co.nz'
+       email: 'mailto:mark.ennis@advicefirst.co.nz',
+       streetNum: 'L21',
+       street: 'AMP Centre 29 Customs Street West',
+       city: 'Auckland',
+       lat: '-36.844000',
+       long: '174.764880'
     },
     {
        url: 'https://www.ailnz.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/9e851837f97363a07c5b08595fd1ce4fbe5c9112.jpg?1589173511',
        name: 'AIL of New Zealand Ltd',
-       email: 'mailto:sga@ailnz.co.nz'
+       email: 'mailto:sga@ailnz.co.nz',
+       streetNum: '2165',
+       street: 'Great North Road, Avondale',
+       city: 'Auckland',
+       lat: '-36.902280',
+       long: '174.691040'
     },
     {
        url: 'https://www.amp.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/1e38e905e1d37631e8ae4247ea19a54a53cd2052.jpg?1572997620',
        name: 'AMP',
-       email: 'mailto:blair.vernon@amp.co.nz'
+       email: 'mailto:blair.vernon@amp.co.nz',
+       streetNum: 'w 1010, 29',
+       street: 'Customs Street West, Auckland CBD',
+       city: 'Auckland',
+       lat: '-36.844000',
+       long: '174.764880'
     },
     {
        url: 'https://www.ampcapital.com/nz/en/home',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/401bffea8fd789eaab9cda5fcbb39ed280c00d17.jpg?1572905695',
        name: 'AMP Capital Investors (NZ) Limited',
-       email: 'mailto:bevan.graham@ampcapital.com'
+       email: 'mailto:bevan.graham@ampcapital.com',
+       streetNum: 'Level 16/188',
+       street: 'Quay Street, Auckland CBD',
+       city: 'Auckland',
+       lat: '-36.843040',
+       long: '174.765270'
     },
     {
        url: 'https://www.al.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/565da2281d11e19335f0aa6fa7d6fb28f85f75ce.png?1572905904',
        name: 'Anderson Lloyd',
-       email: 'mailto:kelly.pankhurst@al.nz'
+       email: 'mailto:kelly.pankhurst@al.nz',
+       streetNum: '37',
+       street: 'Galway Street, Britomart',
+       city: 'Auckland',
+       lat: '-36.845054',
+       long: '174.769188'
     },
     {
        url: 'http://www.angelfood.co.nz/',
