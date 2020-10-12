@@ -58,54 +58,56 @@ export default [
        url: 'http://www.angelfood.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/c0716d3c88c825df7af62fe7d22804ede71143c6.png?1572907880',
        name: 'Angel Food Ltd',
-       email: 'mailto:info@angelfood.co.nz'
+       email: 'mailto:info@angelfood.co.nz',
+       streetNum: '132',
+       street: 'Symonds Street, Eden Terrace',
+       city: 'Auckland',
+       lat: '-36.861670',
+       long: '174.762030'
+      
     },
     {
        url: 'https://www.facebook.com/nzantonios/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/4930af8efb03b1dd277dc8d1d1ec9c1e909586f9.png?1596585496',
-       name: 'Antonio\'s NZ'
+       name: 'Antonio\'s NZ',
+       streetNum: '333',
+       street: 'Parnell Road, Parnell',
+       city: 'Auckland',
+       lat: '-36.857470',
+       long: '174.781550'
     },
     {
        url: 'https://www.anz.co.nz/personal/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/70d6bcac382837a7c64db2af946d311077341aeb.png?1581036769',
        name: 'ANZ Bank NZ Ltd',
-       email: 'mailto:nick.edmond@anz.com'
+       email: 'mailto:nick.edmond@anz.com',
+       streetNum: '205',
+       street: 'Queen Street, Auckland CBD',
+       city: 'Auckland',
+       lat: '-36.849340',
+       long: '174.764960'
     },
     {
        url: 'https://www.asb.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/f91be58952e7446c2933727b9e292c641ae5ecca.png?1583105413',
        name: 'ASB Bank Ltd',
-       email: 'mailto:vittoria.short@asb.co.nz'
-    },
-    {
-       url: 'http://www.barbarian.co.nz/',
-       imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/ec6604ba5937bec484061ec132894aba17efe416.png?1572914242',
-       name: 'Barbarian Productions',
-       email: 'mailto:jo@barbarian.co.nz'
-    },
-    {
-       url: 'https://www.bicyclejunction.co.nz/',
-       imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/01d3fe8532a2ea6820b2948c11c2e7e01e15bdf2.jpg?1572909058',
-       name: 'Bicycle Junction',
-       email: 'mailto:dan@bicyclejunction.co.nz'
-    },
-    {
-       url: 'http://bistronomy.co.nz/',
-       imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/3262f2ae89ed51f3a505112fdb865a9fd6299c92.png?1572914025',
-       name: 'Bistronomy',
-       email: 'mailto:james@bistronomy.co.nz'
+       email: 'mailto:vittoria.short@asb.co.nz',
+       streetNum: '300',
+       street: 'Queen Street, Auckland CBD',
+       city: 'Auckland',
+       lat: '-36.851170',
+       long: '174.764720'
     },
     {
        url: 'https://bluefrogbreakfast.co.nz/',
        imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/889d31e155112bc1bf2394f0cb4af23346cf099a.jpg?1581038544',
        name: 'Blue Frog Breakfast',
-       email: 'mailto:scotty@bluefrogbreakfast.co.nz'
-    },
-    {
-       url: 'https://www.booktwizel.com/',
-       imageUrl: 'https://d3n8a8pro7vhmx.cloudfront.net/nzlivingwage/profile_images/dda46741043a6d785112389a56eb27bca196934d.png?1572996994',
-       name: 'Book Twizel',
-       email: 'mailto:info@booktwizel.com'
+       email: 'mailto:scotty@bluefrogbreakfast.co.nz',
+       streetNum: '68E',
+       street: 'Greenmount Drive, East Tamaki',
+       city: 'Auckland',
+       lat: '-36.931080',
+       long: '174.900430'
     },
     {
        url: 'https://www.booster.co.nz/',
