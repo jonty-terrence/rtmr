@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import MapContainer from'./MapContainer'
 import InfoBoxes from './InfoBoxes'
+import Footer from './Footer'
 
 class App extends React.Component {
   render () {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <Hero />
         <MapContainer />
         <InfoBoxes />
+        <Footer />
       </div>
     )
   }
