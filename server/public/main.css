@@ -150,3 +150,8 @@ header .overlay {
   align-content: center;
   text-align: left;
 }
+
+.info-boxes {
+  display: grid;
+  align-content: center;
+}

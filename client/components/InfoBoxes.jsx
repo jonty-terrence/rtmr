@@ -12,6 +12,7 @@ function InfoBoxes () {
           as a whole to strive for a living wage for all households as a necessary and important step in the 
           reduction of poverty in New Zealand.”
         </p>
+        <img src="market" alt="market"/>
       </div>
       <div className="second-about">
         <h3>Support The Living Wage Aotearoa</h3>
@@ -22,6 +23,7 @@ function InfoBoxes () {
         to campaign for a Living Wage.<br></br>
         <a href="https://www.livingwage.org.nz/">Find out more about The Living Wage Aotearoa and view a full list of accredited employers here</a>
         </p>
+        <img src="bookstore.jpg" alt="book store"/>
       </div>
     </div>
   )
