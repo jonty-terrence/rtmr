@@ -155,3 +155,22 @@ header .overlay {
   display: grid;
   align-content: center;
 }
+
+.info-boxes img {
+  width: 50%;
+}
+
+.first-about {
+  display: flex;
+  justify-content: center;
+}
+
+.second-about {
+  display: flex;
+  justify-content: center;
+}
+
+.text-box {
+  padding: 5%;
+  width: 50%;
+}
