@@ -150,3 +150,45 @@ header .overlay {
   align-content: center;
   text-align: left;
 }
+
+.info-boxes {
+  display: grid;
+  align-content: center;
+}
+
+.info-boxes img {
+  width: 50%;
+}
+
+.first-about {
+  display: flex;
+  justify-content: center;
+}
+
+.second-about {
+  display: flex;
+  justify-content: center;
+}
+
+.text-box {
+  padding: 5%;
+  width: 50%;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-evenly;
+  height: 5rem; 
+  background-color: black;
+  margin-top: 10px;
+}
+
+.footer p {
+  padding: 2%;
+}
