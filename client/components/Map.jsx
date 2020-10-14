@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import ReactMapGL from 'react-map-gl'
+import ReactMapGL, {Marker} from 'react-map-gl'
+
+import businesses from '../data/auckland-businesses'
 
 function Map () {
     const [viewport, setViewport] = useState({
@@ -19,6 +21,17 @@ function Map () {
             }}
             mapStyle="mapbox://styles/jontyterrence/ckdzey51n0dqx1arr2pnnhvx9"
             >
+            {businesses.map(business => {
+                if (business.lat) {
+                    return (
+                        <Marker 
+                latitude={Number(business.lat)} longitude={Number(business.long)} offsetLeft={-20} offsetTop={-10}>
+                <i class="fas fa-map-marker"></i>
+            </Marker>
+                    )
+                }
+            })
+            }
         </ReactMapGL> 
     </div>
   )
