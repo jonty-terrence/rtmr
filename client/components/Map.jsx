@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import ReactMapGL from 'react-map-gl'
+import ReactMapGL, {Marker} from 'react-map-gl'
+
+import businesses from '../data/auckland-businesses'
 
 function Map () {
     const [viewport, setViewport] = useState({
@@ -19,6 +21,10 @@ function Map () {
             }}
             mapStyle="mapbox://styles/jontyterrence/ckdzey51n0dqx1arr2pnnhvx9"
             >
+            <Marker 
+                latitude={Number(businesses[1].lat)} longitude={Number(businesses[1].long)} offsetLeft={-20} offsetTop={-10}>
+                <div>You are here</div>
+            </Marker>
         </ReactMapGL> 
     </div>
   )
