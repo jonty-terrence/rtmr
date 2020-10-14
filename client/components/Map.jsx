@@ -26,7 +26,7 @@ function Map () {
                     return (
                         <Marker 
                             latitude={Number(business.lat)} longitude={Number(business.long)} offsetLeft={-20} offsetTop={-10}>
-                                <i class="fas fa-map-marker"></i>
+                                <i className="fas fa-map-marker"></i>
                         </Marker>
                     )
                 }
