@@ -21,10 +21,17 @@ function Map () {
             }}
             mapStyle="mapbox://styles/jontyterrence/ckdzey51n0dqx1arr2pnnhvx9"
             >
-            <Marker 
-                latitude={Number(businesses[1].lat)} longitude={Number(businesses[1].long)} offsetLeft={-20} offsetTop={-10}>
+            {businesses.map(business => {
+                if (business.lat) {
+                    return (
+                        <Marker 
+                latitude={Number(business.lat)} longitude={Number(business.long)} offsetLeft={-20} offsetTop={-10}>
                 <div>You are here</div>
             </Marker>
+                    )
+                }
+            })
+            }
         </ReactMapGL> 
     </div>
   )
