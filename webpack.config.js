@@ -8,21 +8,15 @@ module.exports = {
   },
   mode: 'development',
   module: {
-    rules: [
-      {
+    rules: [{
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
     },
-      {
-        test: /\.css$/i,
-        use: [
-          'handlebars-loader', // handlebars loader expects raw resource string
-          'extract-loader',
-          'css-loader',
-        ]  
-      },
-  ],
+    {
+      test: /\.(jpe?g|png|gif|svg|pdf)$/i,
+      loader: 'file-loader?name=/public/[name].[ext]'
+    }]
   },
   resolve: {
     extensions: ['.js', '.jsx']
