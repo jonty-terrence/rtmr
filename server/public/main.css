@@ -82,7 +82,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('./market.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -135,20 +135,36 @@ header .overlay {
   max-height: 60%;
 }
 
+.listing-container-title {
+  height: 50px;
+}
+
 .business-listing {
   display: inline-flex;
   align-content: center;
+  border: solid gray;
+  border-width: 1pt;
+  width: 100%;
+}
+
+.business-listing a {
+  width: fit-content;
+  text-align: right;
 }
 
 .business-image {
   max-width: 70%;
   max-height: 60%;
+  padding-top: 20px;
+  padding-right: 10px;
 }
 
 .business-name {
-  font-size: 12px;
+  font-size: 15px;
   align-content: center;
   text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .info-boxes {
@@ -173,22 +189,4 @@ header .overlay {
 .text-box {
   padding: 5%;
   width: 50%;
-}
-
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  display: inline-flex;
-  justify-content: space-evenly;
-  height: 5rem; 
-  background-color: black;
-  margin-top: 10px;
-}
-
-.footer p {
-  padding: 2%;
 }

@@ -13,8 +13,8 @@ class App extends React.Component {
         <Nav />
         <Hero />
         <MapContainer />
-        <InfoBoxes />
-        <Footer />
+        {/* <InfoBoxes />
+        <Footer /> */}
       </div>
     )
   }
