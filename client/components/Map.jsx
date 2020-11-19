@@ -7,7 +7,7 @@ function Map () {
     const [viewport, setViewport] = useState({
         latitude: -36.848461,
         longitude: 174.763336,
-        width: "100vw",
+        width: "75vw",
         height: "100vh",
         zoom: 10
     })
