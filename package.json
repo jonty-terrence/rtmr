@@ -50,6 +50,7 @@
     "jsonexport": "^3.0.1",
     "knex": "^0.21.5",
     "react-copy-to-clipboard": "^5.0.2",
+    "react-map-gl": "^5.2.10",
     "reactjs-popup": "^2.0.4",
     "superagent": "^6.1.0"
   },
