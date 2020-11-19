@@ -140,53 +140,42 @@ header .overlay {
 }
 
 .business-listing {
-  display: inline-flex;
-  align-content: center;
-  border: solid gray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 20%;
+  border: solid grey;
   border-width: 1pt;
-  width: 100%;
-}
-
-.business-listing a {
-  width: fit-content;
-  text-align: right;
-}
-
-.business-image {
-  max-width: 70%;
-  max-height: 60%;
-  padding-top: 20px;
-  padding-right: 10px;
 }
 
 .business-name {
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 7.5%;
+}
+
+.business-name h4 {
   font-size: 15px;
-  align-content: center;
-  text-align: left;
-  padding-top: 20px;
-  padding-left: 10px;
 }
 
-.info-boxes {
+.business-info {
+  grid-area: 2 / 1 / 3 / 2;
+  padding: 7.5%;
   display: grid;
-  align-content: center;
 }
 
-.info-boxes img {
-  width: 50%;
+.business-info a {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.first-about {
-  display: flex;
-  justify-content: center;
+.business-image {
+  grid-area: 1 / 2 / 3 / 3;
 }
 
-.second-about {
-  display: flex;
-  justify-content: center;
+.business-image a img {
+  width: 100%;
+  height: 100%;
 }
 
-.text-box {
-  padding: 5%;
-  width: 50%;
-}
+

@@ -8,8 +8,16 @@ function Listings () {
       {businesses.map(business => {
         return (
           <div key={business.name} className="business-listing">
-            <h4 className="business-name">{business.name}</h4>
-            <a href={business.url}><img className="business-image" src={business.imageUrl}></img></a>
+            <div className="business-name">
+              <h4>{business.name}</h4>
+            </div>
+            <div className="business-info">
+            <a href={business.url}>Website</a>
+            <a href={business.email}>Email</a>
+              </div>
+            <div className="business-image">
+              <a href={business.url}><img src={business.imageUrl}></img></a>
+            </div>
           </div>
         )
       })}
