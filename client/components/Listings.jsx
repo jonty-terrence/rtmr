@@ -5,12 +5,19 @@ import businesses from '../data/auckland-businesses'
 function Listings () {
   return (
     <div className="listing-container">
-      <h2 className="listing-container-title">Auckland Businesses</h2>
       {businesses.map(business => {
         return (
           <div key={business.name} className="business-listing">
-            <a href={business.url}><img className="business-image" src={business.imageUrl}></img></a>
-            <h4 className="business-name">{business.name}</h4>
+            <div className="business-name">
+              <h4>{business.name}</h4>
+            </div>
+            <div className="business-info">
+            <a href={business.url}>Website</a>
+            <a href={business.email}>Email</a>
+              </div>
+            <div className="business-image">
+              <a href={business.url}><img src={business.imageUrl}></img></a>
+            </div>
           </div>
         )
       })}

@@ -14,8 +14,8 @@ module.exports = {
       exclude: /node_modules/
     },
     {
-      test: /\.(jpe?g|png|gif|svg|pdf)$/i,
-      loader: 'file-loader?name=/public/[name].[ext]'
+      test: /\.css$/, 
+      use: 'css-loader'
     }]
   },
   resolve: {

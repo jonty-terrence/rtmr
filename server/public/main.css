@@ -82,7 +82,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('./market.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -135,60 +135,47 @@ header .overlay {
   max-height: 60%;
 }
 
-.business-listing {
-  display: inline-flex;
-  align-content: center;
+.listing-container-title {
+  height: 50px;
 }
 
-.business-image {
-  max-width: 70%;
-  max-height: 60%;
+.business-listing {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 20%;
+  border: solid grey;
+  border-width: 1pt;
 }
 
 .business-name {
-  font-size: 12px;
-  align-content: center;
-  text-align: left;
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 7.5%;
 }
 
-.info-boxes {
+.business-name h4 {
+  font-size: 15px;
+}
+
+.business-info {
+  grid-area: 2 / 1 / 3 / 2;
+  padding: 7.5%;
   display: grid;
-  align-content: center;
 }
 
-.info-boxes img {
-  width: 50%;
+.business-info a {
+  font-size: 10px;
+  text-decoration: none;
+  color: grey;
 }
 
-.first-about {
-  display: flex;
-  justify-content: center;
+.business-image {
+  grid-area: 1 / 2 / 3 / 3;
 }
 
-.second-about {
-  display: flex;
-  justify-content: center;
-}
-
-.text-box {
-  padding: 5%;
-  width: 50%;
-}
-
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
+.business-image a img {
   width: 100%;
-  color: white;
-  text-align: center;
-  display: inline-flex;
-  justify-content: space-evenly;
-  height: 5rem; 
-  background-color: black;
-  margin-top: 10px;
+  height: 100%;
 }
 
-.footer p {
-  padding: 2%;
-}
+
